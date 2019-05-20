@@ -1,0 +1,22 @@
+/*.jobOonjaHomeBackGroundParagraph{*/
+    /*width: 100%;*/
+/*}*/
+.jobOonjaHomeBackGroundParagraphDiv{
+    width: 100%;
+}
+.jobOonjaHomeMiddleBackGround{
+    height: 150px;
+    display: block;
+    background: #B0F0F2;
+    width: 100%;
+}
+.searchInput{
+    background-color: #D1F9FA;
+    border-bottom-color: #00AEBE;
+    border-bottom-width: 1px;
+    width: calc(50vm);
+}
+.searchButton{
+    background-color: #00AEBE;
+    color: #D1F9FA;
+}

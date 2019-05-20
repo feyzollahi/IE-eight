@@ -1,0 +1,111 @@
+.jobOonjaHomeBackGroundParagraphDiv{
+    display: block;
+    text-align: right;
+    margin-top: 3vh;
+}
+
+
+.jobOonjaHomeMiddleBackGround{
+    background-color: #B0F0F2;
+    height: 35vh;
+    box-shadow: inset 0px 0px 15px 2px #A9E6E9;
+    position: relative;
+    z-index: 0;
+}
+.jobOonjaHomeBackGroundParagraph{
+    color: #00858C;
+    font-size: -webkit-xxx-large;
+    font-size: -moz-xxx-large;
+    font-weight: 900;
+    margin-top: 20px;
+}
+.searchInputDiv{
+    display: flex;
+    align-items: flex-end;
+    width: 80%;
+    margin: 5vh 15vw 3vh 0vw;
+}
+.searchInputDiv .input-container{
+    min-width: 90%;
+    background-color: #D1F9FA;
+    border-bottom: 3px #00858C solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px; 
+}
+.searchInputDiv .input-container > input[type="text"]{
+    width: 85%;
+    height: 7vh;
+    background-color: inherit;
+    border: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    color: #6CB4B5;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    padding: 10px; 
+}
+.searchInputDiv .input-container  .submitBuutonDiv input[type="submit"]{
+    width: 90%;
+    height: 5vh;
+    background-color: inherit;
+    border: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    background-color: #00AEBE;
+    color: white;
+    font-size: 2.5rem;
+}
+.searchInputDiv .input-container .submitBuutonDiv{
+    background-color: #D1F9FA;
+    width: 15%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.jobOonjaHomeMiddleBackGround .container {
+    display: block;
+    height: 100%;
+}
+.project-summary-list{
+    display: inline-block;
+    width: min-content;
+    margin: 0 1vw 0vh 0vh;
+    position: relative;
+    z-index: 1;
+}
+.user-summary-list{
+    display: inline-block;
+    margin-right: 10vw;
+    position: relative;
+    z-index: 1;
+}
+.user-project-list{
+    display: flex;
+    background-color: #F6F6F6;
+    margin-top: -5vh;
+}
+.user-name-search{
+    width: 100%;
+    height: 70px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 2px lightgray;
+    background-color: #F9F9F9;
+    padding: 10px;
+    border: none;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 2rem;
+}
+@media only screen and (max-width:  1200px){
+    .user-summary-list{
+        margin-right: 4vw;
+    }
+}
+@media only screen and (max-width:  1000px){
+    .user-summary-list{
+        margin-right: 1vw;
+    }
+}

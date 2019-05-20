@@ -1,0 +1,81 @@
+.main-window{
+    display: flex;
+    height: auto;
+    min-height: 200px;
+    max-height: 30vh;
+    width: 60vw;
+    background-color: #FFFFFF;
+    align-items: center;
+    box-shadow: 0px 0px 20px 2px lightgrey;
+    margin: 10px;
+}
+.project-summary-mother-div{
+    display: inline-block;
+}
+.rtl{
+    direction: rtl;
+    text-align: right;
+}
+.project-image{
+    width: 80%;
+    height: 80%;
+}
+.img-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+}
+.project-info{
+    padding:15px;
+    width: 70%;
+}
+.project-info .project-title-time{
+    display: flex;
+    justify-content: space-between;
+}
+.project-info .project-title-time .project-title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.project-info .project-title-time .project-time{
+    margin-top: 10px;
+    background-color: #F5F5F5;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0px 10px;
+    margin-left: -30px;
+    font-size: 1.6rem;
+}
+.project-info .project-title-time .project-expired-time{
+    margin-top: 10px;
+    background-color: #2F8787;
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    padding: 0px 10px;
+    margin-left: -30px;
+    font-size: 1.6rem;
+}
+.project-info .project-item-description{
+    color: #5E5E5E;
+    font-size: larger;
+    font-weight: bold;
+}
+.project-info .project-budget{
+    color: #00858C;
+    font-weight: bold;
+    font-size: larger;
+}
+.project-item-skills{
+    display: flex;
+}
+.project-item-skills .project-item-skill-items{
+    display: flex;
+}
+.project-item-skills p{
+    color: #A9A9A9;
+}

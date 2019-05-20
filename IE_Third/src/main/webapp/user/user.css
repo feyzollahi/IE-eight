@@ -1,0 +1,363 @@
+.jobOonjaMiddleBackGroundUser{
+    background: #B0F0F2;
+    width: 100%;
+    height: 22vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    box-shadow:  inset 0px 11px 8px -10px lightblue, inset 0px -11px 8px -10px lightblue;
+}
+.jobOonjaMiddleBackGroundUser .shape-div{
+	margin: 0px calc(11vw + 160px);
+	display: inline-flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+.customRectangle{
+	border-bottom: 30px solid #58C9CD;
+	border-left: 20px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 200px;
+	z-index: 2;
+	position: relative;
+	margin-right: -210px;
+
+}
+.customRectangle2{
+	border-bottom: 30px solid #6EDBDE;
+	border-left: 20px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 200px;
+	z-index: 1;
+	position: relative;
+
+}
+.userImage{
+	height: 100%;
+	width: 100%;
+	border-radius: 5px;
+	z-index: 3;
+}
+.userImageDiv{
+	position: relative;
+	height: 200px;
+	width: 230px;
+	margin: -10vh 11vw 0px 0px;
+	float: right;
+	background-color: rgba(253, 253, 253,0.5);
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 1px lightgray;
+	z-index: 3;
+}
+.jobOonjaMiddleBackGroundUser .rectangle{
+	right: calc(230px + 11vw);
+	width: 70px;
+	height: 30px;
+	background-color: #58C9CD;
+}
+.user-name-div{
+	float: right;
+	margin-right: 10px;
+	margin-top: 5px;
+	font-weight: 600;
+	font-size: 30px;
+	z-index: 1000000;
+}
+.user-name-paragraph{
+	color: #4D4D4D;
+}
+.user-comment-paragraph{
+	color: #8F8F8F;
+	float: right;
+	margin-top: -10px;
+	font-size: 16px;
+}
+.jobOonjaSignUpBody{
+	background-color: #F6F6F6;
+	height: 65vh;
+}
+.discription-div{
+	margin: 5vh 11vw 5vh 11vw;
+	width: fit-content;
+	height: auto;
+	max-height: 30vh;
+	overflow-y: auto;
+	overflow-x: all;
+}
+.discription-div .discription-paragraph{
+	color:#484848;
+	word-break: break-all;
+	overflow-wrap: break-word;
+	direction: rtl;
+	font-size: 19px;
+}
+.select-skills-div{
+	display: inline-block;
+	height: 5vh;
+	width: 100%;
+	direction: rtl;
+	float:right;
+	margin: 0 11vw 30px 11vw;
+
+}
+
+.select-skill{
+	display: inline-block;
+	margin-right: 5px;
+	background-color: #FBFBFB;
+	padding: 6px;
+    border: 1px lightgray solid;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px lightgrey;
+}
+.skill-hard-name{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 900;
+}
+.add-skill-button{
+	background-color: #0099A4;
+	color: #FFFFFF;
+	height: 5vh;
+	border: 1px;
+	width: 8vw;
+	border-color: #F5F5F5;
+	font-size: 20px;
+	border-radius: 4px;
+}
+.skill-select-box{
+	background-color: #F9F9F9;
+	height: 5vh;
+	width: 14vw;
+	border: 1px solid;
+	border-color: #F5F5F5;
+	font-size: 20px;
+}
+.skill-list .label{
+	color: #000000;
+	height: 45px;
+	margin: 5px;
+	font-size: 25px;
+	font-weight: 200;
+	display: flex;
+	align-items: center;
+}
+.skill-list .label:hover{
+	color: #000000;
+	height: 45px;
+	margin: 5px;
+	font-size: 25px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+.skill-list-item-div .normal{
+	background-color: #B0F0F2;
+	display: inline;
+}
+.skill-list-item-div .normal:hover{
+	font-size: 0px;
+	background-color:transparent;
+
+}
+.skill-list-item-div .normal:hover:after{
+	content: attr(data-hover);
+	font-size: 25px;
+	background-color: red;
+	overflow: hidden;
+}
+.skill-list{
+	margin-top: 40px;
+	margin-right: 11vw;
+	margin-left: 11vw;
+
+}
+.skill-list-item-div .skill-list-paragraph{
+	font-size: 25px;
+	color: black;
+	font-weight: 400;
+	margin-right: 8px;
+	margin-left: 5px;
+}
+
+.skill-list-item-div{
+	padding: 5px;
+	background-color: #FBFBFB;
+	border-radius: 5px;
+	margin: 10px;
+	height: 54px;
+	width: auto;
+	display: inline-flex;
+	align-items: center;
+	border: 1px solid lightgray;
+}
+@media only screen and (max-width: 1600px){
+	.add-skill-button{
+	background-color: #0099A4;
+	color: #FFFFFF;
+	height: 5vh;
+	border: 1px;
+	width: 11vw;
+	border-color: #F5F5F5;
+	font-size: 20px;
+	border-radius: 4px;
+}
+.skill-select-box{
+	background-color: #F9F9F9;
+	height: 5vh;
+	width: 17vw;
+	border: 1px solid;
+	border-color: #F5F5F5;
+	font-size: 20px;
+}
+}
+@media only screen and (max-width: 1300px){
+	.add-skill-button{
+	background-color: #0099A4;
+	color: #FFFFFF;
+	height: 5vh;
+	border: 1px;
+	width: 14vw;
+	border-color: #F5F5F5;
+	font-size: 20px;
+	border-radius: 4px;
+}
+.skill-select-box{
+	background-color: #F9F9F9;
+	height: 5vh;
+	width: 21vw;
+	border: 1px solid;
+	border-color: #F5F5F5;
+	font-size: 20px;
+}
+}
+@media only screen and (max-height: 950px){
+.skill-list-item-div .skill-list-paragraph{
+	font-size: 19px;
+	color: black;
+	font-weight: 400;
+	margin-right: 5px;
+	margin-left: 3px;
+}
+.skill-list .label{
+	font-size: 19px;
+}
+}
+@media only screen and (max-height:  850px){
+.skill-list-item-div .skill-list-paragraph{
+	font-size: 15px;
+	color: black;
+	font-weight: 400;
+	margin-right: 3px;
+	margin-left: 2px;
+}
+.skill-list .label{
+	font-size: 15px;
+	height: 35px;
+}
+.select-skills-div{
+	margin: 0 11vw 15px 11vw;
+
+}
+.add-skill-button, .skill-select-box{
+	height: 4vh;
+	font-size: 17px;
+
+}
+.discription-div .discription-paragraph{
+	font-size: 17px;
+}
+.discription-div {
+	margin: 4vh 10vw 4vh 10vw;
+}
+.skill-list-item-div{
+	padding: 5px;
+	background-color: #FBFBFB;
+	border-radius: 5px;
+	margin: 7px;
+	height: 35px;
+	display: inline-flex;
+	align-items: center;
+	border: 1px solid lightgray;
+}
+}
+
+@media only screen and (max-height:  650px){
+.skill-list-item-div .skill-list-paragraph{
+	font-size: 11px;
+	color: black;
+	font-weight: 400;
+	margin-right: 3px;
+	margin-left: 2px;
+}
+.skill-list .label{
+	font-size: 11px;
+	height: 25px;
+}
+.select-skills-div{
+	margin: 0 11vw 10px 11vw;
+
+}
+.add-skill-button, .skill-select-box{
+	height: 4vh;
+	font-size: 14px;
+
+}
+.add-skill-button{
+	width: 10vw;
+	font-size: 17px;
+}
+.select-skill{
+	padding: 2px 3px 2px 3px;
+}
+.skill-select-box{
+	background-color: #F9F9F9;
+	height: 5vh;
+	width: 14vw;
+	font-size: 17px;
+}
+.discription-div .discription-paragraph{
+	font-size: 12px;
+}
+.discription-div {
+	margin: 3vh 10vw 3vh 10vw;
+}
+.skill-list-item-div{
+	padding: 3px;
+	background-color: #FBFBFB;
+	border-radius: 5px;
+	margin: 7px;
+	height: 25px;
+	display: inline-flex;
+	align-items: center;
+	border: 1px solid lightgray;
+}
+.userImageDiv{
+	position: relative;
+	height: 150px;
+	width: 150px;
+	margin: -10vh 11vw 0px 0px;
+	float: right;
+	background-color: rgba(253, 253, 253,0.5);
+	padding: 5px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 1px lightgray;
+	z-index: 3;
+}
+}
+
+@media only screen and (max-height:  644px){
+.customRectangle2 {
+    border-bottom: 30px solid #6EDBDE;
+    border-left: 20px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 200px;
+    z-index: 1;
+    position: relative;
+    margin-right: -97px;
+}
+}

@@ -1,0 +1,55 @@
+.jobOonjaHeader {
+    background: white;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10% 0px 10%;
+    position: initial;
+}
+.jobOonjaFooter{
+    background: #393939;
+    width: 100%;
+    height: 6vh;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jobOonjaFooterParagraph{
+    color: #9c9292;
+    font-family: IRANSans;
+    font-size: 17px;
+}
+/*.jobOonjaMiddleBackGround {
+    background: #B0F0F2;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}*/
+.jobOonjaMiddleBackGround p{
+    font-family: IRANSans;
+    color: #00848B;
+    transition-delay: 1s;
+}
+.jobOonjaWebMark {
+    display: flex;
+    justify-content: flex-end;
+    width: 10%;
+    float: right;
+}
+
+.jobOonjaExitFromLoginButton {
+    flex: 0 0 50px;
+    color:black;
+}
+
+.jobOonjaProfileButtom {
+    flex: 0 0 100px;
+    color: black;
+}
+/*gloab*/

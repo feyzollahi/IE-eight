@@ -1,0 +1,35 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>User</title>
+    <script src="user.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+</head>
+<body>
+<ul>
+
+    <li>id: </li>
+    <li>first name: </li>
+    <li>last name:</li>
+    <li>jobTitle: </li>
+    <li>bio: </li>
+    <li>
+        skills:
+        <ul id="skill-unordered-list">
+                <li>
+                    :
+                    <form action="deleteSkill" method="GET">
+                        <input type="hidden" name="userSkill" value=""/>
+                        <button>Delete</button>
+                    </form>
+                </li>
+        </ul>
+    </li>
+</ul>
+        <select name="skillName" class="skill-select-box" onchange="selectBoxValueSetter()">
+            <option value=""></option>
+        </select>
+        <button onclick="addSkillButtonClick()">Add</button>
+</body>
+</html>

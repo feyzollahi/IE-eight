@@ -1,0 +1,41 @@
+.user-avatar-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+}
+.user-avatar-div img{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+.user-summary-mother-div{
+    box-shadow: 0px 0px 20px 2px lightgray;
+    height: 100px;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+.user-item-info p:first-child{
+    font-size: x-large;
+    margin: 15px 0px 0px 10px;
+}
+.user-item-info p:nth-child(2){
+    font-size: medium;
+    margin-top: 20px;
+    color: #868686;
+}
+@media only screen and (max-width:  1100px){
+    .user-summary-mother-div{
+        box-shadow: 0px 0px 20px 2px lightgray;
+        height: 120px;
+        width: 230px;
+        background-color: white;
+        display: flex;
+        border-radius: 10px;
+        margin: 10px 0px;
+    }
+}

@@ -1,0 +1,373 @@
+.jobOonjaMiddleBackGroundProject{
+	background: #B0F0F2;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    box-shadow:  inset 0px 11px 8px -10px lightblue, inset 0px -11px 8px -10px lightblue;
+}
+.project-body{
+	background-color: #F6F6F6;
+	min-height: 76vh;
+	display: flex;
+	justify-content: center;
+}
+.project-body-features{
+	background-color: #FFFFFF;
+	height: 70vh;
+	width: 75vw;
+	margin-top: -3vh;
+	border-radius: 7px;
+	box-shadow:  0px 0px 10px 1px lightgray;
+
+}
+.project-image-div{
+	height: calc(100px + 10vh);
+	width: calc(6vw + 110px);
+	float: right;
+	margin: 30px;
+	border: 1px solid lightgray;
+	display: block;
+}
+.project-image{
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+.project-subject-div{
+	float: right;
+	margin: 30px;
+	display: block;
+	width: -webkit-fill-available;
+}
+.project-subject-prograph{
+	font-size: 35px;
+	font-weight: 1000;
+	color:#282D30;
+}
+.project-body-body{
+	direction: rtl;
+	display: block;
+	min-height: calc(30vh + 80px);
+	height: auto;
+	padding-bottom: 30px;
+	border-bottom: #00D4DE 5px dashed;
+	overflow-y: auto;
+}
+.time-remain-prograph{
+	color: #666666;
+	font-size: 20px;
+	display: inline;
+	font-weight: 800;
+	margin-right: 15px;
+
+}
+.time-remain-prograph-time{
+	font-weight: 400;
+	font-size: 19px;
+	display: inline;
+	color: #707070;
+}
+
+.project-all-details{
+	min-height: calc(100px + 10vh);
+	display: block;
+	float: left;
+	width: 80%;
+}
+.project-details-div{
+	margin-top: 100px;
+}
+.project-value-prograph{
+	color: #00848B;
+	display: inline;
+	font-size: 20px;
+	font-weight: 800;
+	margin-right: 15px;
+
+}
+.project-icons{
+	display: inline;
+	width: 32px;
+	height: 32px;
+}
+.project-value-div , .time-remain-div{
+	margin: 20px;
+}
+.project-description-header-pragraph{
+	font-weight: 800;
+	font-size: 25px;
+}
+.project-description-content-pragraph{
+	font-size: 18px;
+	font-weight: 400;
+	color:#484848;
+	word-break: break-all;
+	overflow-wrap: break-word;
+	direction: rtl;
+}
+.project-description-content-div{
+	height: auto;
+	max-height: 30vh;
+	overflow-y: auto;
+	display: block;
+}
+.project-description{
+	margin: 10px 10px 10px 30px;
+}
+.project-description-header-div{
+	margin-left: 30vw;
+}
+.project-skill{
+	height: 16vh;
+	background-color: #F9F9F9;
+	padding: calc(15px + 1vh);
+	border-bottom: 1px lightgray solid;
+	overflow-y: auto;
+
+}
+.project-skill-inner-div{
+	height: 100%;
+	padding: calc(15px + 1vh);
+}
+.project-skill .signUpPragraph{
+	direction: rtl;
+	color: #00848B;
+	font-weight: 800;
+}
+.project-skill .signUpPragraph-div{
+	margin-bottom: 4vh;
+}
+
+.skill-list .label{
+	color: #006D6E;
+	height: 45px;
+	margin: 5px;
+	font-size: 25px;
+	font-weight: 200;
+	display: flex;
+	align-items: center;
+}
+
+.skill-list-item-div .normal{
+	background-color: #B0F0F2;
+	display: inline;
+}
+
+
+.skill-list{
+	margin-right: 2vw;
+	margin-left: 2vw;
+
+}
+.skill-list-item-div .skill-list-paragraph{
+	font-size: 25px;
+	color: black;
+	font-weight: 400;
+	margin-right: 8px;
+	margin-left: 5px;
+}
+
+.skill-list-item-div{
+	padding: 5px;
+	background-color: #FBFBFB;
+	border-radius: 5px;
+	margin: 10px;
+	height: 54px;
+	width: auto;
+	display: inline-flex;
+	align-items: center;
+	border: 1px solid lightgray;
+}
+
+.project-footer{
+	display: flex;
+	justify-content: flex-end;
+	float: right;
+	direction: rtl;
+	margin-right: 50px;
+}
+.project-bid-offer-hard-name{
+	display: block;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+.project-bid-amount-input{
+	border-width: 0px;
+	display: inline;
+	height: 45px;
+	width: 170px;
+	color: #7D7D7D;
+}
+.project-toman-hard-name{
+	display: inline;
+	margin:10px;
+	color:#00AEBE;
+}
+.project-input-buffer-div{
+	display: inline-flex;
+	width: 250px;
+	border: 3px solid #00AEBE;
+	border-radius: 5px;
+	height: 50px;
+	justify-content: center;
+	align-items: center;
+	margin-left: 15px;
+	font-size: 16px;
+	font-weight: 900;
+}
+.project-bid-submit-button{
+	background-color: #00AEBE;
+	height: 50px;
+	width: 55px;
+	display: inline-flex;
+	color: white;
+	border: 1px #00AEBE solid;
+	border-radius: 4px;
+	justify-content: center;
+	align-items: center;
+	font-weight: 800;
+}
+
+@media screen and (max-width: 1900px) {
+  .project-all-details{
+		width: 75%;
+	}
+	.project-skill .signUpPragraph{
+		margin:0px;
+	}
+}
+@media screen and (max-width: 1300px) {
+	.project-all-details{
+		width: 68%;
+	}
+	.project-body-body{
+		min-height: calc(35vh + 80px);
+	}
+	.project-skill{
+		min-height: 13vh;
+	}
+	.project-description-content-div{
+		max-height: 150px;
+		overflow-y: auto;
+	}
+
+}
+@media screen and (max-width: 1000px) {
+	.project-subject-prograph{
+		font-size: 28px;
+	}
+	.project-subject-div{
+		margin: 20px;
+	}
+	.project-all-details{
+		width: 65%;
+	}
+	.project-body-body{
+		min-height: calc(35vh + 80px);
+		max-height: 40vh;
+		overflow-y: auto;
+	}
+	.project-skill{
+		min-height: 13vh;
+	}
+	.skill-list-item-div .skill-list-paragraph, .skill-list .label{
+		font-size: 17px;
+	}
+	.skill-list .label{
+		height: 38px;
+	}
+	.time-remain-prograph, .time-remain-prograph-time, .project-value-prograph{
+		font-size: 15px;
+	}
+	.project-icons{
+		width: 25px;
+		height: 25px;
+	}
+	.skill-list-item-div{
+		padding: 3px;
+		height: 45px;
+	}
+
+}
+@media screen and (max-width: 800px){
+	.project-subject-prograph{
+		font-size: 25px;
+	}
+	.project-subject-div{
+		margin: 15px;
+	}
+	.project-all-details{
+		width: 60%;
+	}
+	.project-body-body{
+		min-height: calc(35vh + 80px);
+	}
+	.project-skill{
+		min-height: 13vh;
+	}
+	.project-skill .signUpPragraph-div{
+		margin-bottom: 2vh;
+	}
+}
+
+@media screen and (max-height: 800px){
+	.project-subject-prograph{
+		font-size: 25px;
+	}
+	.project-subject-div{
+		margin: 15px;
+	}
+	
+	.project-body-body{
+		min-height: calc(35vh);
+		max-height: 40vh;
+		overflow-y: auto;
+	}
+	.project-skill{
+		min-height: 13vh;
+	}
+	.project-skill .signUpPragraph-div{
+		margin-bottom: 2vh;
+	}
+	.time-remain-prograph, .time-remain-prograph-time, .project-value-prograph ,.skill-list-item-div .skill-list-paragraph, .skill-list .label{
+		font-size: 15px;
+	}
+	.project-description-header-pragraph{
+		font-size: 18px;
+	}
+	.project-description-content-pragraph{
+		font-size: 12px;
+	}
+	.signUpPragraph{
+		font-size: 15px;
+	}
+	.skill-list-item-div{
+		height: 30px;
+	}
+	.skill-list .label{
+		height: 25px;
+	}
+	.project-bid-offer-hard-name{
+		font-size: 16px;
+	}
+	.project-input-buffer-div{
+		height: 35px;
+		width: 180px;
+		font-size: 12px;
+	}
+	.project-bid-amount-input{
+		height: 25px;
+		width: 120px;
+	}
+	.project-bid-submit-button{
+		height: 35px;
+		width: 40px;
+		font-size: 12px;
+	}
+	.project-icons{
+		width: 25px;
+		height: 25px;
+	}
+}
